@@ -5,7 +5,7 @@ const prompt = require("prompt-sync")({ sigint: true });
 Las Funciones Condicionales de JavaScript 
 
 son una herramienta que posibilita la toma de decisiones y permite realizar acciones de acuerdo a la entrada de información que reciba. 
-
+ 
 sentencia if... se usa, principalmente, para tomar decisiones. Permite que, si la condición es verdadera (true), se ejecute un código.
 
 Sintaxis De La Función if...

@@ -221,7 +221,7 @@ fizzBuzz("Digital", "House", 2, 7, 17); */
 
 function sumattion(numero) {
   let suma = 0;
-  for (let i = 0; i <= numero; i++) {
+  for (let i = 1; i <= numero; i++) {
     suma += i; //sumamos el numero con sus anteriores
   }
   return console.log(suma);
