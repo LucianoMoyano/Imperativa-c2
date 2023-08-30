@@ -21,7 +21,7 @@ let hayEnsalda = false;
 
 //undefined
 let perro;
-
+let gato = null 
 perro = "limon";
 
 /* 
@@ -197,3 +197,10 @@ Solicitar que el usuario ingrese su nombre utilizando el prompt. Imprimilo en co
 */
 let nombre2 = prompt("Ingrese su nombre: ");
 console.log(`Hola ${nombre2}!!!`); // `${}` = temple literal (otra forma de concatnación ademas del simbolo +)
+
+
+let persona = "Claudia"
+
+function elemento (){
+  let persona1 
+}

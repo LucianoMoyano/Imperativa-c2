@@ -38,7 +38,7 @@ Teniendo en cuenta este ejemplo del String hello, pensá qué devuelve cada sent
 
 //CODIGO
 /* 
-let word = "hello"
+let word = "hello "
 word[0] //h
 word[1] //e
 word[4] //o

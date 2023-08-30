@@ -11,22 +11,24 @@ Sin embargo, lo re-evalúa repetidas veces y ejecuta su bloque de código hasta 
 
 Sintaxis Del while Loop */
 
-/* while (condicion) {
+/*
+ while (condicion) {
   //un bloque de codigo para ejecutar
   // algo para que la condicion eventualmente se deje de cumplir
-} */
+} 
+*/
 
 /* Importante: Este código se va a ejecutar siempre que el resultado sea true. Cuando la condición sea false, saldremos del bucle, evitando entrar en lo que se conoce como un Loop Infinito.
   
   Veamos un ejemplo: */
 
-/* 
+
 let pasajero = 1;
 while (pasajero <= 20) {
   console.log("puede pasar, su asiento es el: " + pasajero);
-  pasajero++;
+  pasajero++
 }
- */
+
 /* 
   1. Declaramos una Variable: En este caso, la llamamos pasajero y le asignamos el valor 1.
   2. Definimos el while y la condición que tiene que evaluar el programa: "Mientras(while) la variable pasajero sea menor o igual a 20 (pasajero <= 20)...
@@ -125,9 +127,12 @@ console.log("Su nombre es: " + input);
   
   son muy útiles para recorrer un arreglo y mostrar todos sus elementos. Sin embargo, no es la única manera de hacerlo. */
 
-/* for (inicializacion; condicion; incremento / decremento) {
+/* 
+for (inicializacion; condicion; incremento / decremento) {
   //bloque de codigo que indica lo que queres hacer dentro del for
-} */
+
+} 
+*/
 
 /* Veamos cada elemento por separado:
   
@@ -163,13 +168,16 @@ for (let i = 1; i <= 10; i++) {
 /*
   FizzBuzz
   
-  Escribí un loop que imprima en la consola los números del 1 al 16. 
+  Escribí un loop 
+  que imprima en la consola los números del 1 al 16. 
   Deberá cumplir las siguientes condiciones: si el número a imprimir es múltiplo de 3, 
   debe mostrar en la consola el string 'Fizz'. En cambio, si es múltiplo de 5, debe mostrar:
    'Buzz'. Por último, si es múltiplo de ambos debe mostrar: 'FizzBuzz’
   
  
   */
+
+
 
 /* for (let i = 1; i <= 16; i++) {
   if (i % 3 === 0 && i % 5 === 0) {

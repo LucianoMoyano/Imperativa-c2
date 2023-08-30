@@ -16,6 +16,7 @@ let nombreObjeto = {
 };
 
 */
+
 //CODIGO:
 
 /* let persona = {
@@ -241,7 +242,7 @@ for(let i = 0 ; i < arreglo.length ; i++){
   return nuevoArreglo
 }
 
-console.log(elements(ecommerce, 'color'))
+console.log(elements(ecommerce, 'precio'))
 
 //("---------------------------------");
 

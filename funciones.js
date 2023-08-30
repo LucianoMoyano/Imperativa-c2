@@ -17,6 +17,12 @@ llamadas para que se puedan ejecutar.
 
 Declaración De La Función: */
 
+let funcion = function () {
+
+}
+
+let arrowFunction = a => a * a  
+
 function nombreEnCamelCase() {
   // Los paréntesis deben quedar vacíos y, luego,
   // se abre una llave para alojar las instrucciones.
@@ -110,7 +116,7 @@ sean definidos con un valor inicial.
 Ejemplo:
 */
 
-function multiply(a, b = 1) {
+function multiply(a, b = 1, c = 3) {
   console.log(a * b);
 }
 multiply(5, 2);
@@ -142,6 +148,7 @@ ejemplo:
 
 function cuadrado(numero) {
   console.log(numero * numero);
+  
 }
 cuadrado(4) > 16;
 
